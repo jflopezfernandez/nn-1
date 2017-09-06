@@ -22,6 +22,7 @@ int main()
    *  sum of inputs, and it is convenient to call this 'Weight[0]'. This acts as the neuron "threshold". We can then
    *  compute the hidden activation with the following:
    */
+   //Test Comment Javier was here
 
   SumH = Weight[0];
   for (int i = 1; i <= NumInput; ++i)
