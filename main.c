@@ -23,6 +23,7 @@ int main()
    *  compute the hidden activation with the following:
    */
    //Test Comment Javier was here
+   //Javier this time, not Zooboss
 
   SumH = Weight[0];
   for (int i = 1; i <= NumInput; ++i)
