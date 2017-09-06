@@ -6,7 +6,6 @@ SET(CMAKE_C_STANDARD 11)
 
 SET(SOURCE_FILES
     main.c
-    includes/main.h
-)
+    includes/main.h)
 
 ADD_EXECUTABLE(ffbp ${SOURCE_FILES})
