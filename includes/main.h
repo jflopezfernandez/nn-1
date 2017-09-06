@@ -5,7 +5,11 @@
 #ifndef FFNN_MAIN_H
 #define FFNN_MAIN_H
 
+#if defined _WIN32
+#error "Windows in not currently supported"
+#else
 #include <unistd.h>
+#endif
 
 #include <stdio.h>
 #include <stdlib.h>

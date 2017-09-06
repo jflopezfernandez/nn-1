@@ -23,6 +23,11 @@ int main()
    *  compute the hidden activation with the following:
    */
 
+  float SumH;
+  float Weight[10];
+  int NumInput = 10;
+  float Input[10];
+
   SumH = Weight[0];
   for (int i = 1; i <= NumInput; ++i)
     SumH += Input[i] * Weight[i];
